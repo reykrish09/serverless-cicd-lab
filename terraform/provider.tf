@@ -13,6 +13,5 @@ terraform {
   }
 }
 provider "aws" {
-  region  = var.region
-  profile = "serverless-lab"
+  region = var.region
 }

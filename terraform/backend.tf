@@ -1,4 +1,3 @@
-
 terraform {
   backend "s3" {
     bucket       = "serverless-cicd-tfstate-123"
@@ -6,6 +5,5 @@ terraform {
     region       = "us-east-1"
     use_lockfile = true
     encrypt      = true
-    profile      = "serverless-lab"
   }
 }
